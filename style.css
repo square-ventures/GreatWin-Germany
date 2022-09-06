@@ -49,7 +49,7 @@ picture {
 }
 
 .payments {
-  margin-top: 36px;
+  margin-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -205,7 +205,7 @@ picture {
 }
 
 .payment {
-  height: 11px;
+  height: 16px;
 }
 
 .main-area-text-and-button-button:hover {
@@ -311,19 +311,14 @@ picture {
 }
 
 .tablet-payment {
-  display: none;
+  display: block;
   -webkit-animation: payment-animation 2s infinite;
   animation: payment-animation 2s infinite;
-}
-
-@media (min-width: 650px) {
-  .tablet-payment {
-    display: block;
-    margin-top: 40px;
-    opacity: 0.6;
-    width: 204px;
-    height: 64px;
-  }
+  display: block;
+  margin-top: 30px;
+  opacity: 0.6;
+  width: 116px;
+  height: 36px;
 }
 
 .step {
@@ -505,5 +500,3 @@ picture {
 .terms-condition:hover {
   cursor: pointer;
 }
-
-/*# sourceMappingURL=style.css.map */
